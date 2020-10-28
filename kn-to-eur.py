@@ -7,7 +7,7 @@ while True:
 
     choice = input("Would you like another conversion? (y or n): ")
 
-    if choice != "y":
+    if choice.lower() != "y":
         break
 
 print("End of conversion. Thank your for using our converter.")
